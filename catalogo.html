@@ -37,7 +37,7 @@
     <div id="carouselExample" class="carousel slide">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="./assets/img/Copa_imagem_byte.jpg" class="d-block w-100" alt="...">
+      <img src="./assets/img/imagem 1.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
       <img src="./assets/img/imagem 2.png" class="d-block w-100" alt="...">
@@ -55,6 +55,71 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+
+<section class="container py-5">
+
+    <h2 class="text-center mb-4">Catálogo de Produtos</h2>
+
+    <!-- Busca e filtro -->
+    <div class="row mb-4">
+        <div class="col-md-8">
+            <input
+                type="text"
+                id="busca"
+                class="form-control"
+                placeholder="Buscar produto..."
+            >
+        </div>
+
+        <div class="col-md-4">
+            <select id="filtroCategoria" class="form-select">
+                <option value="todos">Todas Categorias</option>
+                <option value="notebook">Notebooks</option>
+                <option value="hardware">Hardware</option>
+                <option value="monitor">Monitores</option>
+                <option value="periferico">Periféricos</option>
+            </select>
+        </div>
+    </div>
+
+    <p class="fw-bold">
+        Exibindo <span id="contador">1</span> produtos
+    </p>
+
+    <!-- Grid -->
+    <div class="row g-4" id="catalogo">
+
+        <!-- Card -->
+        <div class="col-md-4">
+            <div class="card h-100 shadow">
+                <img src="./assets/img/rtx 4060.webp" class="card-img-top">
+
+                <div class="card-body">
+
+                    <h5 class="card-title">
+                        RTX 4060
+                    </h5>
+
+                    <p class="text-primary">
+                        Hardware
+                    </p>
+
+                    <p class="card-text">
+                        Placa de vídeo 8GB GDDR6 para jogos e edição.
+                    </p>
+
+                    <span class="badge bg-success">
+                        Disponível
+                    </span>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
 
 
 
