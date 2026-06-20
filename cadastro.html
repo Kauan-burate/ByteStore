@@ -53,9 +53,79 @@
 
     </div>
 </nav>
-    <section>
+<section class="container my-5">
+    <h1 class="mb-4">CADASTRO</h1>
 
-    </section>
+    <form class="row g-3">
+
+        <div class="col-md-6">
+            <label for="nome" class="form-label">Nome</label>
+            <input type="text" class="form-control" id="nome" required>
+        </div>
+
+        <div class="col-md-6">
+            <label for="sobrenome" class="form-label">Sobrenome</label>
+            <input type="text" class="form-control" id="sobrenome" required>
+        </div>
+
+        <div class="col-md-6">
+            <label for="email" class="form-label">E-mail</label>
+            <input type="email" class="form-control" id="email" required>
+        </div>
+
+        <div class="col-md-6">
+            <label for="cpf" class="form-label">CPF</label>
+            <input type="text" class="form-control" id="cpf" placeholder="000.000.000-00" required>
+        </div>
+
+        <div class="col-md-6">
+            <label for="cidade" class="form-label">Cidade</label>
+            <input type="text" class="form-control" id="cidade" required>
+        </div>
+
+        <div class="col-md-6">
+            <label for="estado" class="form-label">Estado</label>
+            <select class="form-select" id="estado" required>
+                <option selected disabled value="">Selecione...</option>
+                <option>SC</option>
+                <option>PR</option>
+                <option>RS</option>
+                <option>SP</option>
+                <option>RJ</option>
+                <option>RN</option>
+                <option>TO</option>
+                <option>MG</option>
+
+            </select>
+        </div>
+
+        <div class="col-md-6">
+            <label for="senha" class="form-label">Senha</label>
+            <input type="password" class="form-control" id="senha" required>
+        </div>
+
+        <div class="col-md-6">
+            <label for="confirmarSenha" class="form-label">Confirmar Senha</label>
+            <input type="password" class="form-control" id="confirmarSenha" required>
+        </div>
+
+        <div class="col-12">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="termos" required>
+                <label class="form-check-label" for="termos">
+                    Aceito os termos e condições
+                </label>
+            </div>
+        </div>
+
+        <div class="col-12 text-center">
+            <button class="btn btn-primary px-5" type="submit">
+                Cadastrar
+            </button>
+        </div>
+
+    </form>
+</section>
 
 
   <footer class="bg-black text-light border-top border-secondary">
