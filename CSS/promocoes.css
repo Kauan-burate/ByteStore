@@ -1,6 +1,6 @@
 body{
-    background-color: #020304;
-    color: #ffffff;
+    background-color: #fdfdfd;
+    color: #000000;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -38,7 +38,7 @@ body{
     border-radius: 15px;
     overflow: hidden;
     transition: .3s;
-    background: #161b22;
+    background: #ffffff;
     height: 100%;
 }
 
