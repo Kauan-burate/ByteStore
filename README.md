@@ -68,7 +68,7 @@ O projeto busca aplicar na prática os conhecimentos de HTML, CSS, Bootstrap e J
 
 ## 📂 Estrutura do Projeto
 
-
+```
 BYTESTORE/
 │
 ├── index.html
@@ -94,6 +94,7 @@ BYTESTORE/
 │       └── Sobre/
 │
 └── README.md
+```
 
 ## 🔗 Links
 
@@ -120,6 +121,3 @@ Adicione aqui capturas de tela das páginas:
 ## 📄 Licença
 
 Projeto desenvolvido exclusivamente para fins acadêmicos.
-
----
-
