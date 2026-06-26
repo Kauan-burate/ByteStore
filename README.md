@@ -79,22 +79,21 @@ BYTESTORE/
 │
 ├── CSS/
 │   ├── base.css
-|   ├── cadastro.css
+│   ├── cadastro.css
 │   ├── catalogo.css
-│   ├── promocoes.
-|   ├── sobre.css
+│   ├── promocoes.css
+│   ├── sobre.css
 │   └── inicio.css
 │
 ├── JS/
-|   ├── catalogo.js
+│   ├── catalogo.js
 │   └── cadastro.js
 │
-└── assets/
-|    └── img/
-|         └── Sobre
-|
+├── assets/
+│   └── img/
+│       └── Sobre/
+│
 └── README.md
----
 
 ## 🔗 Links
 
