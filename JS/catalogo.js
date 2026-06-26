@@ -34,9 +34,6 @@ busca.addEventListener("input", () => {
     
     }
 
-
-
-
 });
 
 

@@ -157,18 +157,13 @@ footer hr{
     border-color: #333;
 }
 
-@media(max-width:768px){
-
-    .carousel-item img{
-        height: 180px;
-    }
-
-    .card-img-top{
-        height: 200px;
-    }
-
-    .newsletter{
-        padding: 30px;
-    }
-
+.card-title{
+    color:#000000;
+}
+h5{
+    color: #000000;
+    font-weight: bold;
+}
+p{
+    color: #000000;
 }
